@@ -1,1 +1,3 @@
-ffmpeg -i v1.mp4 -ss 00:00:02.625 -t 00:04:52.250 -c copy vc1.mp4
+rem c 2.590 v2s590.mp4
+ffmpeg -i v1.mp4 -ss 00:00:00.000 -t 00:00:%1 -c copy tmp\%2
+
